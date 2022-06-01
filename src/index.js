@@ -1,9 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './routes/App'
 
-const App = () =>{
-    return(
-        <h1>Hello world</h1>
-    );
-}
-
-export default App
+ReactDOM.render(<App/>,document.getElementById('app'))
